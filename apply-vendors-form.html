@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Oakstudio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+<!-- CSS -->
+<link href="./css/smart_wizard_all.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/smartwizard@6/dist/js/jquery.smartWizard.min.js" type="text/javascript"></script>
+
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">Oakstudio</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#content">Content</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<section class="page-section" id="services">
+    <div id="smartwizard"  style="margin-top: 34px !important;">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#step-1">
+                <div class="num">1</div>
+                Business Profile
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#step-2">
+                <span class="num">2</span>
+                Bank account verification 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#step-3">
+                <span class="num">3</span>
+                Tax identity information
+              </a>
+            </li>
+        </ul>
+     
+        <div class="tab-content">
+            <div id="step-1" class="tab-pane" role="tabpanel" aria-labelledby="step-1">
+                <div class="row">
+                    <!-- Company Name -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Company *</label> 
+                            <input class="form-control" type="text" name="company" placeholder=""> 
+                        </div>
+                    </div>
+    
+                    <!-- Address Line 1 -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Address Line 1 *</label> 
+                            <input class="form-control" type="text" name="address1" placeholder=""> 
+                        </div>
+                    </div>
+    
+                    <!-- Address Line 2 -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Address Line 2</label> 
+                            <input class="form-control" type="text" name="address2" placeholder=""> 
+                        </div>
+                    </div>
+                    
+                    <!-- Phone number -->
+                    <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label>Phone Number *</label> 
+                          <input class="form-control" name="Phone Number"  placeholder=""> 
+                      </div>
+                  </div>
+
+                  <!-- Email Address -->
+                  <div class="col-md-6">
+                    <div class="form-group mb-3">
+                        <label>Email Address *</label> 
+                        <input class="form-control" type="email" name="Email Address" placeholder=""> 
+                    </div>
+                </div>
+
+                    <!-- City -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>City *</label> 
+                            <input class="form-control" type="text" name="city" placeholder=""> 
+                        </div>
+                    </div>
+    
+                    <!-- State -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>State *</label> 
+                            <input class="form-control" type="text" name="state" placeholder=""> 
+                        </div>
+                    </div>
+    
+                    <!-- Postal Code -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Postal Code *</label> 
+                            <input class="form-control" type="text" name="postal_code" placeholder=""> 
+                        </div>
+                    </div>
+    
+                    <!-- Country -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Country *</label> 
+                            <select name="country" class="form-control" id="country">
+                                <option value="NG" selected="selected">Nigeria</option>
+                                <option value="US">United States</option>
+                                <option value="CA">Canada</option>
+                                <!-- Add more countries as needed -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="step-2" class="tab-pane" role="tabpanel" aria-labelledby="step-2">
+                <div class="row">
+                    <!-- Country (Auto) -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Country (Auto)</label> 
+                            <input class="form-control" type="text" name="country" id="country" value="Auto" readonly> 
+                        </div>
+                    </div>
+    
+                    <!-- Account Number -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Account Number *</label> 
+                            <input class="form-control" type="text" name="account_number" placeholder="Enter account number"> 
+                        </div>
+                    </div>
+    
+                    <!-- Bank Name -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Bank Name *</label> 
+                            <input class="form-control" type="text" name="bank_name" placeholder="Enter bank name"> 
+                        </div>
+                    </div>
+    
+                    <!-- Routing Number -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Routing Number *</label> 
+                            <input class="form-control" type="text" name="routing_number" placeholder="Enter routing number"> 
+                        </div>
+                    </div>
+    
+                    <!-- Type (Saving/Current) -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Account Type *</label> 
+                            <select name="account_type" class="form-control" id="account_type">
+                                <option value="saving">Saving</option>
+                                <option value="current">Current</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <!-- Holder Name (Auto from API) -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Account Holder Name *</label> 
+                            <input class="form-control" type="text" name="holder_name" id="holder_name" placeholder="Holder Name" readonly> 
+                        </div>
+                    </div>
+    
+                    <!-- IsVerified -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Is Verified?</label> 
+                            <input type="checkbox" name="is_verified" id="is_verified">
+                        </div>
+                    </div>
+    
+                    <!-- IsPrimary -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Is Primary?</label> 
+                            <input type="checkbox" name="is_primary" id="is_primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="step-3" class="tab-pane" role="tabpanel" aria-labelledby="step-3">
+                <div class="row">
+                    <!-- Tax Identification Number -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Tax Identification Number *</label> 
+                            <input class="form-control" type="text" name="tax_identification_number" placeholder="Enter Tax Identification Number" required>
+                        </div>
+                    </div>
+    
+                    <!-- Legal Name used for Tax Purposes -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Legal Name used for Tax Purposes *</label> 
+                            <input class="form-control" type="text" name="legal_name" placeholder="Enter Legal Name" required>
+                        </div>
+                    </div>
+    
+                    <!-- Tax Classification (Optional) -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Tax Classification (Optional)</label> 
+                            <input class="form-control" type="text" name="tax_classification" placeholder="Enter Tax Classification">
+                        </div>
+                    </div>
+    
+                    <!-- Address -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Address (Required)</label> 
+                            <input class="form-control" type="text" name="address" placeholder="Enter Address" required>
+                        </div>
+                    </div>
+    
+                    <!-- Checkbox: Mark address as permanent address -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>
+                                <input type="checkbox" name="same_as_permanent" id="same_as_permanent"> Same as permanent address
+                            </label>
+                        </div>
+                    </div>
+    
+                    <!-- Tax Document (Required) -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label>Tax Document *</label> 
+                            <input class="form-control" type="file" name="tax_document" accept="*/*" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>  
+</section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between">
+          <!-- Right -->
+          <div>
+            <a href="https://www.facebook.com/oakstudio" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/oakstudio" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.google.com/oakstudio" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="https://www.instagram.com/oakstudio" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/oakstudio" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/oakstudio" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-video me-3"></i>OakStudio
+                </h6>
+                <p>
+                  OakStudio is a premier OTT platform that connects content creators and vendors with global audiences. We offer flexible streaming, monetization tools, and detailed analytics to help you grow your brand and reach more viewers.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Features
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Content Upload</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Monetization Options</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Analytics Dashboard</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Custom Branding</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful Links
+                </h6>
+                <p>
+                  <a href="#pricing" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Account Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Vendor Support</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help Center</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Contact Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+                <p><i class="fas fa-home me-3"></i> New York, NY 10012, USA</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  support@oakstudio.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> +1 234 567 890</p>
+                <p><i class="fas fa-print me-3"></i> +1 234 567 891</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="https://oakstudio.com/">OakStudio.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<script>
+     var btnFinish = $('<button></button>').text('SUBMIT')
+                                  .addClass('btn btn-info sw-btn-group-extra d-none')
+                                  .on('click', function(){  });
+
+  $(function() {
+    $('#smartwizard').smartWizard();
+    var options = {
+  theme: 'arrows',
+  transition: {
+      animation: 'slideHorizontal',
+            speed: '400',
+
+  },
+  toolbarSettings: {
+        toolbarPosition: 'bottom',
+        toolbarButtonPosition: 'right',
+        showNextButton: true,
+        showPreviousButton: true,
+        toolbarExtraButtons: [btnFinish] 
+    },
+}
+$('#smartwizard').smartWizard("setOptions", options);
+});
+</script>
+</body>
+
+</html>
